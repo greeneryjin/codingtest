@@ -16,16 +16,19 @@
 <th>x</th>
 <th>n</th>
 <th>answer</th>
-
 </tr>
-</thead>
+</thead>        
 <td>2</td>
 <td>5</td>
 <td>[2,4,6,8,10]</td>
+<tr>        
 <td>4</td>
 <td>3</td>
 <td>[4,8,12]</td>
+</tr>
+<tr>     
 <td>-4</td>
 <td>2</td>
 <td>[-4, -8]</td>
+</tr>
 
