@@ -3,7 +3,6 @@ class Solution {
     public int solution(String dartResult) {
         int answer = 0;
         char[] chs = dartResult.toCharArray();
-        
         int[] arr = new int[3];
         int index = 0; 
         for(int i = 0; i < chs.length; i++) {
@@ -28,7 +27,7 @@ class Solution {
             } else if(chs[i] == 'T') {
                 arr[index - 1] = arr[index - 1] * arr[index - 1] * arr[index - 1];
             } else if(chs[i] == '*') {
-               int max = 2;
+               int max = 2; //옵션은 2회 만 가능 
                for(int j = index - 1; j >= 0; j--) {
                    if(max == 0) break;
                    arr[j] *= 2;
